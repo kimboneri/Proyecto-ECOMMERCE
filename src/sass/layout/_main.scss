@@ -1,0 +1,78 @@
+.main{
+        
+    height: 100%;
+    @include container;
+
+    &__tittle-category{
+        margin-top: 20rem;
+        text-align: center;
+        color: $white;
+        padding-bottom: 7rem;
+        font-family: $monserratFont;
+        font-weight:700;
+        font-size: 4rem;
+        text-transform: uppercase;
+    }
+    &__category{
+       
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        gap: 5rem;
+        margin-top: 8rem;
+        .card{
+            background-color: #68686855;
+            border-radius:1rem;
+            padding: 3rem;
+            transition: all 0.5s ease-in-out; 
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.1);
+                filter: drop-shadow(0px 0px 10px $jade );
+            }
+            img{
+                width: 100%;
+            }
+            p{
+                text-align: center;
+                color: $white;
+                font-family:$kanitFont;
+                font-weight:600 ;
+                font-size: 2rem;
+                padding-top: 1.5rem;
+            }
+
+
+           
+        }
+        
+    }
+   
+    &__top-vapes{
+       
+        h2{
+            text-align: center;
+            color: $white;
+            padding-bottom: 7rem;
+            padding-top: 10rem;
+            font-family: $monserratFont;
+            font-weight:700;
+            font-size: 4rem;
+            text-transform: uppercase;
+           }
+           
+        img{
+            width: 300px;
+        }
+    }
+
+    
+
+   
+}
+
+//ACCORDION
+
+

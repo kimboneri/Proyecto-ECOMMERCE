@@ -1,0 +1,44 @@
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: $black;
+}
+ 
+.container {
+  width: 95%;
+  max-width: 1750px;
+  margin: 0 auto;
+}
+a{
+  font-family:$kanitFont ;
+  font-weight: 600;
+  text-decoration: none ;
+  color: $white;
+}
+img,
+picture {
+  width: 100%;
+  display: block;
+}
+
+h1,h2{
+  font-family:$kanitFont ;
+  margin: 0;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+

@@ -1,0 +1,44 @@
+
+
+@mixin grid($columns, $spacing ) {
+    display: grid;
+    gap: $spacing;
+    grid-template-columns: repeat($columns, 1fr);
+}
+/** Media Queries **/
+@mixin phone {
+    @media (min-width: #{$phone}) {
+      @content;
+    }
+  }
+  
+  @mixin tablet {
+    @media (min-width: #{$tablet}) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media (min-width: #{$desktop}) {
+      @content;
+    }
+  }
+  
+  @mixin grid($columns, $spacing ) {
+    display: grid;
+    gap: $spacing;
+    grid-template-columns: repeat($columns, 1fr);
+  }
+
+  @mixin container{
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  @mixin display($display,$content,$items,$align){
+    display: $display;
+    justify-content:$content;
+    justify-items: $items;
+    align-items: $align;
+  }
+
+ 

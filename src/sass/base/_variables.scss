@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@200;300;400;500;600;700;800&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+//Fuentes
+$kanitFont:'Kanit', sans-serif;
+$latoFont:'Lato', sans-serif;
+$monserratFont:'Monserrat', sans-serif;
+$karlaFont:'Karla', sans-serif;
+
+//Colores
+
+$gray:#686868;
+$black:#000000ff;
+$oceanBlue:#2790b0;
+$pastelGreen:#a2e5d2;
+$jade:#28FFBF;
+$white:#fff;
+
+
+//Tamaño de Media Query
+
+$phone: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
+
+//Gradiente
+
+$gradient: linear-gradient(200deg,#28FFBF 20%,#30D5C8 70%);

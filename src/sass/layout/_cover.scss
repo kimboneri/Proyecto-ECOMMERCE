@@ -1,0 +1,68 @@
+#cover{
+    background-image: url(/src/assets/man-vaping-an-electronic-cigarette.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    transition: all .5s ease-in-out;
+    position: relative;
+    z-index: 2;
+   
+    
+    &::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: rgb(240,240,240);
+        background: linear-gradient(180deg, rgba(22, 21, 21, 0.09) 2%, rgb(0, 0, 0) 100%);
+        z-index: -1;
+    }
+
+    &.imagen2{
+        background-image: url(/src/assets/man-vaping-an-electronic-cigarette-1.jpg);
+    }
+    &.imagen3{
+        background-image: url(/src/assets/man-vaping-an-electronic-cigarette-1.jpg);
+    }
+    &.imagen4{
+        background-image: url(/src/assets/man-vaping-an-electronic-cigarette-1.jpg);
+    }
+    .cover__text{
+        @include container;
+        text-align: center;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+        justify-content: center;
+        height: 100vh;
+        
+       h1{
+        font-family: $monserratFont;
+        color: #fff;
+        font-size: 10rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 900px;
+        height: 250px;
+       }
+        span{
+            color: $jade;
+            
+        }
+       p{
+        font-family: $monserratFont;
+        color: #ffffff92;
+        width: 650px;
+        padding-bottom: 20rem;
+        padding-top: 1rem;   
+        font-weight: 200;  
+        font-size: 2rem;  
+        }
+        
+    }
+    
+} 
