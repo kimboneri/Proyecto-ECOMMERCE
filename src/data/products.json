@@ -1,0 +1,287 @@
+{
+    "vapeKits": [
+      {
+        "brand":"mipods",
+        
+        "name":"Midnight Hue Mi-Pod PRO +",
+        "img":"src/assets/Black_Raw_79411a8f-2dfb-4ec6-adfb-db9e734b5779_600x.png",
+        "price":"129.99"
+      },
+      {
+        "brand":"mipods",
+       
+        "name":"Yellowjacket Mi-Pod PRO +",
+        "img":"src/assets/YellowJacket_Angled_600x.png",
+        "price":"129.99"
+      },
+      {
+        "brand":"mipods",
+       
+        "name":"Sea Dragon Mi-Pod PRO +",
+        "img":"src/assets/Sea_Dragon_600x.png",
+        "price":"129.99"
+      },
+      {
+        "brand":"mipods",
+       
+        "name":"White Scales Mi-Pod 2.0 +",
+        "img":"src/assets/White_Scales_A1_600x.png",
+        "price":"149.99"
+      },
+      {
+        "brand":"mipods",
+        
+        "name":"Sand Scales Mi-Pod 2.0 +",
+        "img":"src/assets/Sand_Scales_A1_600x.png",
+        "price":"149.99"
+      },
+      {
+        "brand":"mipods",
+        
+        "name":"Midnight Hue Mi-Pod PRO +",
+        "img":"src/assets/Dark_Scales_A1_600x.png",
+        "price":"129.99"
+      },
+      {
+        "brand":"smok",
+        
+        "name":"SMOK Novo 2",
+        "img":"src/assets/Blue-And-Black_Novo-2_Smok_600x600_0ba2f09e-f5b0-407c-9711-7d681198cce2_600x.png",
+        "price":"89.99"
+      },
+      {
+        "brand":"smok",
+      
+        "name":"SMOK Novo 4",
+        "img":"assets/Black-Armor_Novo-4_Smok_600x600_aa258517-b1b2-4341-952e-b57d3122f0df_600x.png",
+        "price":"89.99"
+      },
+      {
+        "brand":"smok",
+       
+        "name":"SMOK Novo 4 Mini",
+        "img":"assets/7-Color-Cobra_Novo-4-Mini_Smok_600x600_11b354d7-ac96-4758-bce3-1e7d448a930f_600x.png",
+        "price":"89.99"
+      },
+      
+      {
+        "brand":"oxbar",
+        
+        "name":"Oxbar RRD Kit - Purple",
+        "img":"src/assets/Purple_1_600x.png",
+        "price":"59.99"
+      },
+      {
+        "brand":"oxbar",
+       
+        "name":"Oxbar RRD Kit - Sakura Gradient",
+        "img":"src/assets/Sakura_Gradient_600x.png",
+        "price":"59.99"
+      },
+      {
+        "brand":"oxbar",
+       
+        "name":"Oxbar RRD Kit - Silver",
+        "img":"src/assets/oxbar-Silver_600x.png",
+        "price":"59.99"
+      },
+      {
+        "brand":"suorin",
+       
+        "name":"Suorin Air Pro",
+        "img":"src/assets/Black_Air-Pro_Suorin_600x600_49129109-b72f-4b34-8981-a748cf0899be_600x.png",
+        "price":"99.99"
+      },
+      {
+        "brand":"suorin",
+
+        "name":"Suorin Air Pro",
+        "img":"src/assets/Black_Air-Pro_Suorin_600x600_49129109-b72f-4b34-8981-a748cf0899be_600x.png",
+        "price":"99.99"
+      },
+      {
+        "brand":"vaperesson",
+       
+        "name":"Vaporesso XROS 2",
+        "img":"src/assets/Aurora_Xros-2_Vaperesso_600x600_0d95ea19-3669-479c-987f-8d7de9d313bf_600x.png",
+        "price":"99.99"
+      },
+      {
+        "brand":"vaperesson",
+      
+        "name":"Vaporesso XROS 3",
+        "img":"src/assets/Icy-Silver_Xros-3_Vaperesso_600x600_ad1cdece-5342-42be-a06c-450d94ab8301_600x.png",
+        "price":"99.99"
+      }
+      ,
+      {
+        "brand":"drag",
+       
+        "name":"Voopoo Drag 3 177W Mod Kit - Eagle Grey",
+        "img":"src/assets/header/IND-HW-EQUIP-888.png",
+        "price":"99.99"
+      }
+      ,
+      {
+        "brand":"drag",
+      
+        "name":"Voopoo Drag 3 177W Mod Kit - Silver Dream Blue",
+        "img":"src/assets/header/IND-HW-EQUIP-887.png",
+        "price":"99.99"
+      }
+      ,
+      {
+        "brand":"drag",
+        
+        "name":"Voopoo Drag 3 177W Mod Kit - Black",
+        "img":"src/assets/header/IND-HW-EQUIP-750.png",
+        "price":"99.99"
+      }
+
+      
+      
+    ],
+    "desechables": [
+
+
+      {
+        "brand":"escobar",
+       
+        "name":"Blue Raspberry Lemon Esco Bar",
+        "img":"src/assets/footer/Blue_Rapsberry_Lemon_600x.png",
+        "price":"39.99"
+      },
+      {
+        "brand":"escobar",
+       
+        "name":"Jungle Juice Esco Bar 6000",
+        "img":"src/assets/footer/Jungle_Juice_600x.png",
+        "price":"59.99"
+      },
+      {
+        "brand":"escobar",
+       
+        "name":"Mango Berry Ice Esco Bar MEGA",
+        "img":"src/assets/footer/Mango_Berry_Ice_600x.png",
+        "price":"49.99"
+      },
+      {
+        "brand":"fume",
+        
+        "name":"Black Ice Fume Mini",
+        "img":"src/assets/footer/black-ice_fume-mini_d_b_600x.png",
+        "price":"29.99"
+      },
+      {
+        "brand":"fume",
+       
+        "name":"Strawberry Watermelon Fume Mini",
+        "img":"src/assets/footer/strawberry-watermelon_fume-mini_d_b_600x.png",
+        "price":"99.99"
+      },
+      {
+        "brand":"fume",
+      
+        "name":"Gummy Bears Fume Ultra",
+        "img":"src/assets/footer/Gummy_Bears_Ultra_600x.png",
+        "price":"55.99"
+      },
+      {
+        "brand":"airbar",
+        
+        "name":"Watermelon Ice Air Bar NEX",
+        "img":"src/assets/header/watermelon-ice_airbar-nex_600x600_52aaa8b1-e5e4-4825-a872-3eb52db8ad06_600x.png",
+        "price":"45.99"
+      },
+      {
+        "brand":"airbar",
+        
+        "name":"Gummy Bears Air Bar Box",
+        "img":"src/assets/header/gummyBears_600x.png",
+        "price":"99.99"
+      },
+      {
+        "brand":"flonq",
+        
+        "name":"VPink Lemonade Flonq Max",
+        "img":"src/assets/header/Flonq-Pink-Lemonade_Device_600x600_v2_600x.png",
+        "price":"69.99"
+      }
+      ,
+      {
+        "brand":"flonq",
+        "name":"Decadent Flonq Max Sampler Pack",
+        "img":"src/assets/header/Flonq-SET2-DESSERT_july2023_sampler-image_600x.png",
+        "price":"199.99"
+      }
+    ],
+
+    "liquidos":[
+
+        {
+        "brand":"juice head",
+        "img":"src/assets/header/Blueberry_Lemon_25_600x.png",
+        "name":"Blueberry Lemon Juice Head Salt",
+        "price":"36.99"
+        }
+        ,
+        {
+          "brand":"juice head",
+          "img":"src/assets/header/Watermelon_Lime_25_600x.png",
+          "name":"Watermelon Lime Juice Head Salt",
+          "price":"36.99"
+        }
+        ,
+        {
+          "brand":"juice head",
+          "img":"Raspberry Lemonade Juice Head Salt",
+          "name":"src/assets/header/raspberry-lemonade-35mg-bottle_juice-head_600x.png",
+          "price":"36.99"
+        }
+        ,
+        {
+          "brand":"vaporlax",
+          "img":"src/assets/header/peach-ice-50mg-salt_600x.png",
+          "name":"Peach Ice VaporLax Salt",
+          "price":"29.99"
+        }
+        ,
+        {
+          "brand":"juice head",
+          "img":"src/assets/header/blueberry-ice-50mg-salt_600x.png",
+          "name":"Blueberry Ice VaporLax Salt",
+          "price":"29.99"
+        }
+        ,
+        {
+          "brand":"juice head",
+          "img":"src/assets/header/energy-50mg-salt_600x.png",
+          "name":"Energy VaporLax Salt",
+          "price":"29.99"
+        }
+        ,
+        {
+          "brand":"isalts",
+          "img":"I Love Salts Strawberry Guava",
+          "name":"src/assets/header/Strawberry_Guava_25_600x.png",
+          "price":"39.99"
+        }
+        ,
+        {
+          "brand":"isalts",
+          "img":"src/assets/header/Peach_Mango_Ice_79c244ed-cbdf-4c8f-8eda-0cbd297081a0_600x.png",
+          "name":"I Love Salts Peach Mango",
+          "price":"39.99"
+        }
+        ,
+        {
+          "brand":"isalts",
+          "img":"src/assets/header/Blue_Raspberry_Ice_25mg_600x.png",
+          "name":"I Love Salts Blue Raspberry Ice",
+          "price":"39.99"
+        }
+        
+        
+    ]
+    
+  }

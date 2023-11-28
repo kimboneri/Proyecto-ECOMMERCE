@@ -1,0 +1,141 @@
+.footer{
+    margin-top: 15rem;
+    &__content-1{
+        @include container;
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        padding-bottom: 15rem;
+        
+        .box{
+            width: 250px;
+            height: 100%;
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            
+            img{
+                background-image: $gradient;
+                width: 100px;
+                height:100% ;
+                padding: 2rem;
+                border-radius: 50%;
+            }
+            h4{
+                padding-top: 1rem;
+                font-family: $latoFont;
+                font-weight: 600;
+            }
+            p{
+                padding-top: .5rem;
+                text-align: center;
+                font-size: 1.4rem;
+                color: $gray;
+                font-family: $monserratFont;
+            }
+        }
+    }
+
+    &__content-2{
+        background-image: url(/src/assets/vaping-device-6-e1627969342205.jpg);
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        z-index: 200;
+       &::before{
+        content: "";
+        height: 100%;
+        width: 100%;
+        background-color: #000000bf;
+        z-index: -1;
+        position: absolute;
+       }
+       &__box-1{
+        @include container;
+        padding-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+        
+            img{
+                width: 90px;
+            }
+            .social-links{
+                display: flex;
+                gap: 3rem;
+                
+                img{
+                    background-color: $white;
+                    border-radius: 2rem;
+                    padding: 1rem;
+                    width: 50px;
+                    height: 50px;
+
+                    transition: all 0.3s ease-in-out; 
+                    &:hover{
+                       transform: translateY(-2rem);
+                       background-color: $jade;
+                    }
+                    
+                }
+            }
+        }
+        &__box-2{
+            @include container;
+            justify-content: space-between;
+            padding-top: 10rem;
+            padding-bottom: 5rem;
+            display: flex;
+            gap: 20rem;
+           
+            h3{
+                font-family: $latoFont;
+                font-weight: 800;
+                color: $jade;
+                font-size: 2.5rem;
+            }
+            a{
+                color: #ffffffab;
+                display: block;
+            }
+            .custom-support{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;                
+            }
+            .hakyVape{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                padding-right: 5rem;
+                img{
+                    padding-top: 1rem;
+                    width: 110px;
+                    height: 100%;
+                    object-fit: fill;
+                }
+                
+            }
+        }
+        .contact-info{
+            display: flex;
+            flex-direction: column;
+            p{
+               color: #ffffffab;
+            }
+        }
+        &__copyright{
+            @include container ;
+            padding-top: 2rem;
+            border-top: 1px solid $gray;
+            color: #ffffffab;
+        }
+       
+    }
+    
+}
