@@ -1,0 +1,119 @@
+.products__wrapper{
+    height: 100%;
+    position: relative ;
+    z-index: 100;
+    
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0000008b;
+        z-index: -1;
+    }
+    &__box{
+        gap: 3rem;
+       display: flex;
+       height: 100%;
+       @include container;
+       padding: 2rem 0 0 0;
+        aside{
+            width: 350px;
+            height: 300px;
+            background-color: red;
+            margin: 2rem 0 0;
+       
+        }
+       
+    }
+    &__brands{
+        display: flex;
+        border-radius: 1rem;
+        background-image: $gradient;
+        background-color: transparent;
+        height: 100%;
+        justify-content: space-evenly;
+        justify-items: center;
+        gap: 10rem;
+        align-items: center;
+        @include container;
+        padding: 2rem;
+        margin-top: 3rem;
+        
+        .box{
+            cursor: pointer;
+            img{
+                width: 100%;
+                transition: all 0.2s ease-in-out;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        
+
+        
+    }
+    &__products{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr ;
+        background-color: transparent ;
+        width: 100%;
+        gap: 6rem;
+        padding: 2rem 2rem 0 ;
+
+        .card{
+            cursor: pointer;
+            width: 100%;
+           box-shadow: 0px 0px 10px $gray;
+            background-color: #68686855;
+            transition: all 0.5s ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+                filter: drop-shadow(0px 0px 10px $jade );
+            }
+            &__text{
+                text-align: center;
+                padding: 1rem;
+                p{
+                    color: $white;
+                    font-family: $karlaFont;
+                    font-size: 2rem;
+                }
+
+                span{
+                    color: $gray;
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                }
+            }
+
+        }
+        
+    }
+}
+
+
+.modal-content{
+background-color: transparent;
+margin: 0;
+padding: 0;
+
+align-items: center;
+}
+
+.modal-body{
+   background-image: url(/src/assets/man-vaping-an-electronic-cigarette-6-e1626677677874.jpeg);
+    justify-content: center;
+   height: 500px;
+   width: 1000px;
+   border-radius: 3rem;
+}
+.modal__box__img{
+    height: 400px;
+    
+}    

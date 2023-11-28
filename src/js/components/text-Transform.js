@@ -17,7 +17,13 @@ function text(){
         cursorChar: '', // Caracter para el cursor
         contentType: 'html', // 'html' o 'null' para texto sin formato
     });
+
+  if(typed == false){
+    console.log("hhhh")
+  }
 }
+
+
 
 export default text;
 

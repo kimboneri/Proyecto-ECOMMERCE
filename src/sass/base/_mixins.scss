@@ -33,6 +33,7 @@
   @mixin container{
     max-width: 1300px;
     margin: 0 auto;
+    padding: 0 1.5rem;
   }
   @mixin display($display,$content,$items,$align){
     display: $display;
