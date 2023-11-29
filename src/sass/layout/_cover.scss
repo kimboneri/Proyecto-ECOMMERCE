@@ -1,5 +1,5 @@
 #cover{
-    background-image: url(/src/assets/man-vaping-an-electronic-cigarette.jpg);
+    background-image: url("/src/assets/index/man-vaping-an-electronic-cigarette-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -21,14 +21,12 @@
     }
 
     &.imagen2{
-        background-image: url(/src/assets/man-vaping-an-electronic-cigarette-1.jpg);
+        background-image: url("/src/assets/index/man-vaping-an-electronic-cigarette-2.jpg");
     }
     &.imagen3{
-        background-image: url(/src/assets/man-vaping-an-electronic-cigarette-1.jpg);
+        background-image: url("/src/assets/index/man-vaping-an-electronic-cigarette-3.jpg");
     }
-    &.imagen4{
-        background-image: url(/src/assets/man-vaping-an-electronic-cigarette-1.jpg);
-    }
+    
     .cover__text{
         @include container;
         text-align: center;

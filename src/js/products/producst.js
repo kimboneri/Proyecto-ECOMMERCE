@@ -18,6 +18,34 @@ const getProducts = async ()=>{
         </div>`
 
     });
+    data.desechables.forEach(element => {
+        products.innerHTML += `
+        <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <div class="card__img">
+        <img src="${element.img}" alt=""> 
+        </div>
+        
+        <div class="card__text">
+        <p>${element.name}</p>
+        <span>s/${element.price}</span>
+        </div>
+        </div>`
+
+    });
+    data.liquidos.forEach(element => {
+        products.innerHTML += `
+        <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <div class="card__img">
+        <img src="${element.img}" alt=""> 
+        </div>
+        
+        <div class="card__text">
+        <p>${element.name}</p>
+        <span>s/${element.price}</span>
+        </div>
+        </div>`
+
+    });
 }
 getProducts()
 
