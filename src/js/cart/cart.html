@@ -6,33 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/build/css/styles.css">
-    <title>Document</title>
+    <title>HAKY</title>
 </head>
 
 <body>
-    <style>
-    
-    </style>
-    <img class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop"  src="/assets/Oxbar-G8000_Mango-Peach_Device_600x.png" alt="">
-    <!-- Button trigger modal -->
-    
-  
-  <!-- Modal -->
-  
-    <div id="cover">
-        <header class="header">
 
+    <div class="shoppingCart">
+        <header class="header">
             <div class="header__logo">
                 <div class="img">
-                    <img src="/src/assets/footer/Mesa de trabajo 2.png" alt="">
+                    <img src="/src/assets/index/Mesa de trabajo 2.png" alt="">
                 </div>
                 <div class="text">
                     <h2><span>HAKY</span>VAPE</h2>
                 </div>
             </div>
             <nav class="header__nav">
-                <a href="">INICIO</a>
-                <a href="">VAPEO</a>
+                <a href="/index.html">INICIO</a>
+                <a href="/src/js/products/products.html">VAPEO</a>
                 <a href="">DESECHABLES</a>
                 <a href="">LIQUIDOS</a>
                 <a href="">BLOG </a>
@@ -49,23 +40,138 @@
                     <input type="text" placeholder="buscar...">
                 </div>
                 <div class="shopping-cart">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                        <path
-                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                    </svg>
+                    <a href="/src/js/cart/cart.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bag"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                        </svg>
+                    </a>
                     <span id="shopping-cart__counter">1</span>
                 </div>
             </div>
-
         </header>
+        <section class="shoppingCart__storage">
 
-        <section class="cover__text">
-            <h1>No más humo <br> <span class="typed"></span></h1>
-            <p>El lugar donde el placer se encuentra en cada inhalación. Vive el vapeo con nosotros,
-                donde la esencia de la satisfacción se mezcla con el sabor.</p>
+            <div class="shoppingCart__storage__content1">
+                <div class="product">
+                    <div class="product__box1">
+                        <img src="/src/assets/products/600_b146ed18-1b7e-48a3-ad86-ffe86416b183_1200x.gif"
+                            alt="Imagen de producto"></td>
+                        <p>Descripción del producto</p>
+                        <span>$99.99</span>
+                    </div>
+                    <div class="product__box2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-dash" viewBox="0 0 16 16">
+                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8" />
+                        </svg>
+                        <span>0</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-plus-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
+                        </svg>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+            <div class="shoppingCart__storage__content2">
+                <div class="card-asideContent">
+                    <h3>resumen</h3>
+                    <div class="summarySubtotal">
+                        <p>Subtotal</p>
+                        <span>s/2312</span>
+                    </div>
+                    <div class="summaryTotal">
+                        <p>Total</p>
+                        <span>s/32623</span>
+                    </div>
+
+                    <div class="btn-buy">
+                        <p>Comprar</p>
+                    </div>
+                </div>
+
+            </div>
+
+
         </section>
-       
-        
+    </div>
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer__content-1">
+
+            <div class="box">
+
+                <img src="/src/assets/index/enviado.png" alt="">
+
+                <h4>Delivery Rápido</h4>
+                <p>Hacemos envios a todo el Perú</p>
+
+            </div>
+            <div class="box">
+                <img src="/src/assets/index/billetera-de-dinero.png" alt="">
+                <h4>Pagos contra-entrega</h4>
+                <p>Paga al momento de recibir el prquid-from-an-electronic-cigarette-1-1024x682.jpg"</p>
+
+            </div>
+            <div class="box">
+                <img src="/src/assets/index/proteger.png" alt="">
+                <h4>Productos y Servicio de Garantia</h4>
+                <p>1 mes de garatia</p>
+            </div>
+            <div class="box">
+                <img src="/src/assets/index/devolucion-de-producto.png" alt="">
+                <h4>Aceptamos devoluciones</h4>
+                <p>Puedes devolver tu compra dentro de 7 dias siguientes</p>
+            </div>
+
+        </div>
+        <div class="footer__content-2">
+            <div class="footer__content-2__box-1">
+                <img src="/src/assets/index/Mesa de trabajo 2.png" alt="">
+                <div class="social-links">
+                    <img src="/src/assets/index/facebook.png" alt="">
+                    <img src="/src/assets/index/gorjeo.png" alt="">
+                    <img src="/src/assets/index/instagram.png" alt="">
+                </div>
+            </div>
+            <div class="footer__content-2__box-2">
+                <div class="custom-support">
+                    <h3>SERVICIO AL CLIENTE</h3>
+                    <a href="pageInfo.html">Preguntas Frecuentes</a>
+                    <a href="#">Terminos y Condiciones</a>
+                    <a href="#">Politica de Privacidad</a>
+                    <a href="#">Medio de Pago</a>
+                </div>
+                <div class="hakyVape">
+                    <h3>HAKY</h3>
+                    <a href="">Quienes Somos</a>
+                    <img src="/src/assets/index/reclamaciones.png" alt="">
+                </div>
+                <div class="contact-info">
+                    <h3>Contactame</h3>
+                    <p>empresa@hakyVape.com</p>
+
+                </div>
+            </div>
+            <p class="footer__content-2__copyright">&copy 2023 HAKYVAPE. Todos los derechos reservados</p>
+        </div>
+
+    </footer>
+
+
+
+
     </div>
 
     <script src="./cart.js" type="module"></script>
