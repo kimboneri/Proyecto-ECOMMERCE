@@ -8,6 +8,10 @@ Es una pagina ecommerce de cigarros electronicos (vapes).
 1. npm install
 2. npm run dev 
 
+# EN DESARROLLO:
+1. Agregar productos al carrito
+2. El buscador de la pagina
+3. Aun no es responsivo
 
 
 
