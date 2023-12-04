@@ -20,11 +20,55 @@
        @include container;
        padding: 2rem 0 0 0;
         aside{
+            display: flex ;
+            flex-direction: column;
+            gap: 10rem;
             width: 350px;
             height: 300px;
-            background-color: red;
+            height: 100%;
+            background-color: transparent;
             margin: 2rem 0 0;
-       
+            .brands-filter{
+                display: flex;
+                flex-direction: column;
+                
+                padding: 1rem;
+                border-radius: 1rem;
+                h3{
+                    font-family: $karlaFont;
+                    font-size: 2.8rem;
+                    padding-bottom: 1rem;
+                    color: $jade;
+                }
+                label{
+                    cursor: pointer;
+                    font-size: 2rem;
+                    color: $white;
+                    width: max-content;
+                   
+                }
+                
+            }
+            .price-filter{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                h3{
+                    font-family: $karlaFont;
+                    font-size: 2.8rem;
+                    padding-bottom: 1rem;
+                    color: $jade;
+                }
+                label{
+                    cursor: pointer;
+                    color: $white;
+                    input{
+                        width: 20px; 
+                        height: 100%;                   
+                    }    
+                }
+                
+            }
         }
        
     }
@@ -43,7 +87,7 @@
         margin-top: 3rem;
         
         .box{
-            cursor: pointer;
+            
             img{
                 width: 100%;
                 transition: all 0.2s ease-in-out;
@@ -65,20 +109,31 @@
         width: 100%;
         gap: 6rem;
         padding: 2rem 2rem 0 ;
-
+        flex: 1;
+        
         .card{
-            cursor: pointer;
             width: 100%;
-           box-shadow: 0px 0px 10px $gray;
+             box-shadow: 0px 0px 10px $gray;
             background-color: #68686855;
             transition: all 0.5s ease-in-out;
-            &:hover{
-                transform: scale(1.1);
-                filter: drop-shadow(0px 0px 10px $jade );
-            }
+            justify-content: space-between;
+          
             &__text{
                 text-align: center;
                 padding: 1rem;
+                &__price{
+                    width: 100%;
+                    background-image: $gradient;
+                    border-radius: 2rem;
+                    padding: 1rem;
+                    margin-top: 1rem;
+                    cursor: pointer;
+                    transition: all 0.5s ease-in-out;
+                    &:hover{
+                        transform: scale(1.1);
+                        
+                    }    
+                }
                 p{
                     color: $white;
                     font-family: $karlaFont;
@@ -95,25 +150,7 @@
         }
         
     }
+
 }
 
 
-.modal-content{
-background-color: transparent;
-margin: 0;
-padding: 0;
-
-align-items: center;
-}
-
-.modal-body{
-   background-image: url(/src/assets/man-vaping-an-electronic-cigarette-6-e1626677677874.jpeg);
-    justify-content: center;
-   height: 500px;
-   width: 1000px;
-   border-radius: 3rem;
-}
-.modal__box__img{
-    height: 400px;
-    
-}    

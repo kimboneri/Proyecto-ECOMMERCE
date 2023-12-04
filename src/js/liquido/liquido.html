@@ -23,15 +23,16 @@
         </div>
         <nav class="header__nav">
             <a href="/index.html">INICIO</a>
-            <a href="">VAPEO</a>
-            <a href="">DESECHABLES</a>
-            <a href="">LIQUIDOS</a>
-            <a href="">BLOG </a>
+            <a  href="/src/js/vapeo/products.html">VAPEO</a>
+            <a id="nav-desechable" href="/src/js/desechable/desechable.html">DESECHABLES</a>
+            <a id="nav-liquidos" href="/src/js/liquido/liquido.html">LIQUIDOS</a>
+            
 
         </nav>
 
         <div class="header__box">
             <div class="search">
+                <!-- EN DESARROLLO -->
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path
                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
@@ -39,13 +40,15 @@
                 <input type="text" placeholder="buscar...">
             </div>
             <div class="shopping-cart">
-                <a href="/src/js/cart/cart.html">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                    <path
-                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                </svg>
-            </a>
-                <span id="shopping-cart__counter">1</span>
+                
+                    <svg id="cart" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                    </svg>
+              
+                <spa id="shopping-cart__counter">
+                    <!-- EN DESARROLLO -->
+                </span>
             </div>
         </div>
 
@@ -67,34 +70,48 @@
         </div>
         <div class="products__wrapper__box">
             <aside>
-                <H2>FILTRO</H2>
+                <div class="brands-filter">
+                    <h3>marca</h3>
+                    <label for="button1">
+                        <input  id="button1" class="input-button" value="juice head"  type="checkbox">
+                       Juice Head
+                    </label>
+                    <label for="button2">
+                        <input id="button2" class="input-button" value="vaporlax"  type="checkbox">
+                        Vaporlax
+                    </label>
+                    <label for="button3">
+                        <input id="button3" class="input-button" value="isalts" type="checkbox">
+                      Isalts
+                    </label>
+                    
+                </div>
+
+                <div class="price-filter">
+                    <div class="price-filter">
+                        <h3>filtro de precios</h3>
+                        <label for="button-1">
+                            <input id="button-1" class="button-price" value="price1"  type="checkbox">
+                            HASTA S/50
+                        </label>
+                        <label for="button-2">
+                            <input id="button-2" class="button-price" value="price2"   type="checkbox">
+                            S/100 - S/200
+                        </label>
+                        <label for="button-3">
+                            <input id="button-3" class="button-price" value="price3"   type="checkbox">
+                            S/200 - S/400
+                        </label>
+                    </div>
+                </div>
+
             </aside>
             <div class="products__wrapper__products">
 
             </div>
         </div>
     </section>
-    <button type="button" class="btn btn-primary">
-        Launch static backdrop modal
-    </button>
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="modal__box">
-                       <div class="modal__box__img">
-                            <img class="modal__img" src="" alt="">
-                       </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  
     <footer class="footer">
         <div class="footer__content-1">
 
@@ -128,9 +145,9 @@
             <div class="footer__content-2__box-1">
                 <img src="/src/assets/index/Mesa de trabajo 2.png" alt="">
                 <div class="social-links">
-                    <img src="/src/assets/index/facebook.png" alt="">
-                    <img src="/src/assets/index/gorjeo.png" alt="">
-                    <img src="/src/assets/index/instagram.png" alt="">
+                    <a href="https://www.facebook.com/"><img src="/src/assets/index/facebook.png" alt="Error de carga de la imagen"></a>
+                    <a href="https://twitter.com/"><img src="/src/assets/index/gorjeo.png" alt="Error de carga de la imagen"></a>
+                    <a href="https://www.instagram.com"><img src="/src/assets/index/instagram.png" alt="Error de carga de la imagen"></a>
                 </div>
             </div>
             <div class="footer__content-2__box-2">
@@ -156,10 +173,39 @@
         </div>
 
     </footer>
+    <div class="menu-cerrado" id="menu-cerrado">
+        <div class="menu-cerrado__header">
+            <svg id="close" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg>
+            <h2>Bolsa de compra</h2>
+        </div>
+        <div class="menu-cerrado__main">
 
-
-
-    <script src="../products/producst.js" type="module"></script>
+        </div>
+        <div class="menu-cerrado__footer">
+            <div class="subtotal">
+                <span>Subtotal</span>
+                <span>s/2131</span>
+            </div>
+            <div class="total">
+                <span>Total</span>
+                <span>s/213132</span>
+            </div>
+            <div class="box">
+                <div class="go-shoppingBag">
+                    <a href="/src/js/cart/cart.html">Ir a la bolsa de compra</a>
+                </div>
+                <div class="buy">
+                    <a href="/src/js/cart/cart.html">comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/src/js/liquido/liquido.js" type="module"></script>
 
 
 </body>

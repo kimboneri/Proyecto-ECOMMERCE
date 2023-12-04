@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/build/css/styles.css">
+    <title>HakyVape</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="header__logo">
+            <div class="img">
+                <img src="/src/assets/index/Mesa de trabajo 2.png" alt="">
+            </div>
+            <div class="text">
+                <h2><span>HAKY</span>VAPE</h2>
+            </div>
+        </div>
+        <nav class="header__nav">
+            <a href="/index.html">INICIO</a>
+            <a  href="/src/js/vapeo/products.html">VAPEO</a>
+            <a id="nav-desechable" href="/src/js/desechable/desechable.html">DESECHABLES</a>
+            <a id="nav-liquidos" href="/src/js/liquido/liquido.html">LIQUIDOS</a>
+            
+
+        </nav>
+
+        <div class="header__box">
+            <div class="search">
+                <!-- EN DESARROLLO -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+                <input type="text" placeholder="buscar...">
+            </div>
+            <div class="shopping-cart">
+               
+                    <svg id="cart" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                    </svg>
+               
+                <spa id="shopping-cart__counter">
+                    <!-- EN DESARROLLO -->
+                </span>
+            </div>
+        </div>
+
+    </header>
+    <section class="products__wrapper">
+        <div class="products__wrapper__brands">
+            <div class="box">
+                <img src="/src/assets/products/Fume_Mini_Logo.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/src/assets/products/Group_25_603bd486-c12e-4d3e-9e0d-3d4ec7143b9a.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/src/assets/products/MIpod_Logo_Black_1.png" alt="">
+            </div>
+            <div class="box">
+                <img src="/src/assets/products/vaporlax-mesh-black.png" alt="">
+            </div>
+        </div>
+        <div class="products__wrapper__box">
+            <aside>
+                <div class="brands-filter">
+                    <h3>marca</h3>
+                    <label for="button1">
+                        <input  id="button1" class="input-button" value="escobar"  type="checkbox">
+                       Esco Bar
+                    </label>
+                    <label for="button2">
+                        <input id="button2" class="input-button" value="airbar"  type="checkbox">
+                        Air Bar
+                    </label>
+                    <label for="button3">
+                        <input id="button3" class="input-button" value="flonq" type="checkbox">
+                        Flonq
+                    </label>
+                    <label for="button4">
+                        <input id="button4" class="input-button" value="fume" type="checkbox">
+                        fume
+                    </label>    
+                </div>
+
+                <div class="price-filter">
+                    <div class="price-filter">
+                        <h3>filtro de precios</h3>
+                        <label for="button-1">
+                            <input id="button-1" class="button-price" value="price1"  type="checkbox">
+                            HASTA S/50
+                        </label>
+                        <label for="button-2">
+                            <input id="button-2" class="button-price" value="price2"   type="checkbox">
+                            S/100 - S/200
+                        </label>
+                        <label for="button-3">
+                            <input id="button-3" class="button-price" value="price3"   type="checkbox">
+                            S/200 - S/400
+                        </label>
+                    </div>
+                </div>
+
+            </aside>
+            <div class="products__wrapper__products">
+
+            </div>
+        </div>
+    </section>
+  
+    <footer class="footer">
+        <div class="footer__content-1">
+
+            <div class="box">
+
+                <img src="/src/assets/index/enviado.png" alt="">
+
+                <h4>Delivery Rápido</h4>
+                <p>Hacemos envios a todo el Perú</p>
+
+            </div>
+            <div class="box">
+                <img src="/src/assets/index/billetera-de-dinero.png" alt="">
+                <h4>Pagos contra-entrega</h4>
+                <p>Paga al momento de recibir el producto</p>
+
+            </div>
+            <div class="box">
+                <img src="/src/assets/index/proteger.png" alt="">
+                <h4>Productos y Servicio de Garantia</h4>
+                <p>1 mes de garatia</p>
+            </div>
+            <div class="box">
+                <img src="/src/assets/index/devolucion-de-producto.png" alt="">
+                <h4>Aceptamos devoluciones</h4>
+                <p>Puedes devolver tu compra dentro de 7 dias siguientes</p>
+            </div>
+
+        </div>
+        <div class="footer__content-2">
+            <div class="footer__content-2__box-1">
+                <img src="/src/assets/index/Mesa de trabajo 2.png" alt="">
+                <div class="social-links">
+                    <a href="https://www.facebook.com/"><img src="/src/assets/index/facebook.png" alt="Error de carga de la imagen"></a>
+                    <a href="https://twitter.com/"><img src="/src/assets/index/gorjeo.png" alt="Error de carga de la imagen"></a>
+                    <a href="https://www.instagram.com"><img src="/src/assets/index/instagram.png" alt="Error de carga de la imagen"></a>
+                </div>
+            </div>
+            <div class="footer__content-2__box-2">
+                <div class="custom-support">
+                    <h3>SERVICIO AL CLIENTE</h3>
+                    <a href="pageInfo.html">Preguntas Frecuentes</a>
+                    <a href="#">Terminos y Condiciones</a>
+                    <a href="#">Politica de Privacidad</a>
+                    <a href="#">Medio de Pago</a>
+                </div>
+                <div class="hakyVape">
+                    <h3>HAKY</h3>
+                    <a href="">Quienes Somos</a>
+                    <img src="/src/assets/index/reclamaciones.png" alt="">
+                </div>
+                <div class="contact-info">
+                    <h3>Contactame</h3>
+                    <p>empresa@hakyVape.com</p>
+
+                </div>
+            </div>
+            <p class="footer__content-2__copyright">&copy 2023 HAKYVAPE. Todos los derechos reservados</p>
+        </div>
+
+    </footer>
+    <div class="menu-cerrado" id="menu-cerrado">
+        <div class="menu-cerrado__header">
+            <svg id="close" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg>
+            <h2>Bolsa de compra</h2>
+        </div>
+        <div class="menu-cerrado__main">
+
+        </div>
+        <div class="menu-cerrado__footer">
+            <div class="subtotal">
+                <span>Subtotal</span>
+                <span>s/2131</span>
+            </div>
+            <div class="total">
+                <span>Total</span>
+                <span>s/213132</span>
+            </div>
+            <div class="box">
+                <div class="go-shoppingBag">
+                    <a href="/src/js/cart/cart.html">Ir a la bolsa de compra</a>
+                </div>
+                <div class="buy">
+                    <a href="/src/js/cart/cart.html">comprar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/src/js/desechable/desechable.js" type="module"></script>
+
+
+</body>
+
+</html>

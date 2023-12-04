@@ -34,7 +34,6 @@
                 
             }
         }
-        
        
     }
 
@@ -42,6 +41,7 @@
         display: flex;
         gap: 4rem;
         padding-left: 2rem;
+        
 
         a{
             display: block;
@@ -83,8 +83,14 @@
             width: 100%;
 
             svg{
+                cursor: pointer ;
                 fill: $white;
                 width: 25px;
+                transition: all 0.5s ease-in-out;
+               &:hover{
+                transform: scale(1.1);
+                
+               }
             }
             span{
                 padding: .1rem .5rem;

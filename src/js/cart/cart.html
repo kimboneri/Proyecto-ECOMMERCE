@@ -23,10 +23,10 @@
             </div>
             <nav class="header__nav">
                 <a href="/index.html">INICIO</a>
-                <a href="/src/js/products/products.html">VAPEO</a>
-                <a href="">DESECHABLES</a>
-                <a href="">LIQUIDOS</a>
-                <a href="">BLOG </a>
+                <a href="/src/js/vapeo/products.html">VAPEO</a>
+                <a href="/src/js/desechable/desechable.html">DESECHABLES</a>
+                <a href="/src/js/liquido/liquido.html">LIQUIDOS</a>
+
 
             </nav>
 
@@ -40,14 +40,16 @@
                     <input type="text" placeholder="buscar...">
                 </div>
                 <div class="shopping-cart">
-                    <a href="/src/js/cart/cart.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bag"
+                   
+                        <svg id="cart" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bag"
                             viewBox="0 0 16 16">
                             <path
                                 d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
                         </svg>
-                    </a>
-                    <span id="shopping-cart__counter">1</span>
+                   
+                    <spa id="shopping-cart__counter">
+                        <!-- EN DESARROLLO -->
+                    </span>
                 </div>
             </div>
         </header>
@@ -73,7 +75,7 @@
                                 d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
                         </svg>
                     </div>
-                    
+
                 </div>
 
             </div>
@@ -168,12 +170,37 @@
         </div>
 
     </footer>
+    <div class="menu-cerrado" id="menu-cerrado">
+        <div class="menu-cerrado__header">
+            <svg id="close" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+            </svg>
+            <h2>Bolsa de compra</h2>
+        </div>
+        <div class="menu-cerrado__main">
 
-
-
-
+        </div>
+        <div class="menu-cerrado__footer">
+            <div class="subtotal">
+                <span>Subtotal</span>
+                <span>s/2131</span>
+            </div>
+            <div class="total">
+                <span>Total</span>
+                <span>s/213132</span>
+            </div>
+            <div class="box">
+                <div class="go-shoppingBag">
+                    <a href="/src/js/cart/cart.html">Ir a la bolsa de compra</a>
+                </div>
+                <div class="buy">
+                    <a href="/src/js/cart/cart.html">comprar</a>
+                </div>
+            </div>
+        </div>
     </div>
-
     <script src="./cart.js" type="module"></script>
 </body>
 

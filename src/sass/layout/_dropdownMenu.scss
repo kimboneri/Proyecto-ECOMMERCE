@@ -1,0 +1,63 @@
+.menu-cerrado{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: $gradient;
+    width: 400px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    z-index: 200;
+    padding: 1rem;
+    transition: right 0.5s ease-in-out;
+    &__header{
+        display: flex;
+       h2{  
+            padding-top: 3rem;
+            font-size: 3rem;
+            font-family: $monserratFont;
+       }   
+       svg{
+        cursor: pointer;
+        }
+    }
+    
+    &__footer{
+        
+        .subtotal{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #0000002e;
+            
+        }
+        .total{
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+                    
+            
+        }
+        .box{
+            text-transform: uppercase;
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-evenly;
+            .go-shoppingBag{
+                background-color: $gray;
+                border-radius: 2rem;
+                padding: 1rem;
+            }
+            .buy{
+                background-color: $gray;
+                border-radius: 2rem;
+                padding: 1rem;
+            }
+        }
+        
+    }
+
+}
+.menu-abierto{
+    right: 0;
+}
